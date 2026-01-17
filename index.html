@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Web3 Token Sender</title>
+</head>
+<body>
+  <h2>Token Sender</h2>
+
+  <button id="connectBtn">Connect Wallet</button>
+
+  <p>Network: <span id="network">Unknown</span></p>
+
+  <input id="toAddress" placeholder="Receiver Address" />
+  <input id="amount" placeholder="Amount to Send" />
+
+  <button id="sendBtn">Send Token</button>
+
+  <p>TX Hash: <span id="txHash">None</span></p>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+  <script src="config.js"></script>
+  <script src="provider.js"></script>
+  <script src="connect.js"></script>
+  <script src="network.js"></script>
+  <script src="validate.js"></script>
+  <script src="sender.js"></script>
+  <script src="ui.js"></script>
+  <script src="utils.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
